@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<header>
+
+    <title>Calculador de Media - @emmartins</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+
+</header>
+
+<body>
+
+    <div class="container">
+
+        <!-- TÍTULO -->
+        <h1 class="page-title">
+        Conversor de moedas
+        </h1>
+    
+        <!-- SUBTÍTULO -->
+        <p class="page-subtitle">
+        Faça a conversão de valores para Real
+        </p>
+    
+        <!-- IMAGEM IMERSÃO DEV -->
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+    
+        <!-- FORMULARIO -->
+        <label for="moedaSelecionada">Selecione a moeda:</label>
+        <select id="moedaSelecionada">
+        <option value="dolar">Dólar</option>
+        <option value="euro">Euro</option>
+        <option value="iene">Iene</option>
+        <option value="francoSuico">Franco Suíço</option>
+        </select><br>
+        <label for="valorColetado"> Insira o valor: </label>
+        <input type="number" id="valorColetado" size="2" placeholder="Insira o valor" /><br>
+        <!--<input type="" id="moedaSelecionada" size="2" placeholder="Selecionar moeda"/>-->
+        <button type="submit" onclick="converterMoeda()">Converter</button>
+        <h2 id="valorConvertido"></h2>
+
+    </div>
+    
+    <!-- LOGO TOPO -->
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+
+    <footer>
+        <p>
+            Criado por: Eduardo Mello Martins em Março de 2022.
+        </p>
+    </footer>
+
+</body>
